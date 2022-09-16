@@ -54,7 +54,7 @@
     - `Nothing` -> 유효하지 않은 값
     - `Just a`  -> 유효한 값
 
-  간략한 타입 선언은 `newtype Maybe a = Nothing | Just a`
+  간략한 타입 선언은 `data Maybe a = Nothing | Just a`
 
 ### Class `Functor`
 
